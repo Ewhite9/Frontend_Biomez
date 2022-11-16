@@ -1,0 +1,79 @@
+.NavbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(153, 146, 146);
+    padding: 0 25px;
+    width: 98%;
+    height: 80px;
+    border-radius: 8px;
+    border-color: black;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.title1 {
+    font-style: Bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap :10px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+    padding-right: 175pt;
+}
+
+a {
+    padding-left: 30pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgba(4, 4, 10, 0.692);
+    
+}
+
+a:hover {
+    background: rgb(165, 158, 158);
+    transition: all 0.2s ease-in-out;
+    border-radius: 6px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input {
+    height: 40px;
+    border-radius: 8px;
+    padding-right: 10pt;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+    
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu-bar {
+    color: rgba(103, 107, 109, 0.39);
+}
+
+.Icon {
+    font-size:xx-large;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
