@@ -1,3 +1,9 @@
 body{
   background-color: rgba(135, 140, 146, 0.568);
 }
+
+.container {
+  margin: 1rem;
+  text-align: center;
+  
+}
