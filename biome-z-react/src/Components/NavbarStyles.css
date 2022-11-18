@@ -39,7 +39,6 @@ a {
     color: rgba(4, 4, 10, 0.692);
     
 }
-
 a:hover {
     background: rgb(165, 158, 158);
     transition: all 0.2s ease-in-out;

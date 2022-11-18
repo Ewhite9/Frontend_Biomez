@@ -7,3 +7,10 @@ body{
   text-align: center;
   
 }
+
+.divScroll {
+  overflow:scroll;
+  height: 14in;
+  width: 14in;
+
+}

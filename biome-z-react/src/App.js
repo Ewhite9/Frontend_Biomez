@@ -12,7 +12,7 @@ export default function App()
 
   return(
     
-    <div>
+    <div  className="divScroll">
       <Navbar />
       <div className="Navbar"> </div>
       
